@@ -1,0 +1,76 @@
+
+.containter{
+    background-color: rgb(243, 243, 207);
+    overflow: visible;
+    max-height: fit-content;
+    position: relative;
+    top: 50px;
+   
+}
+.category{
+    margin-top: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.category .img{
+    margin: 10px;
+}
+.Featured-product h2{
+    text-align: center;
+    margin-top: 80px;
+}
+.Featured-product #line{
+    background-color: rgb(155, 57, 0);
+    width: 90px;
+    height: 5px;
+    border-radius: 20px;
+    position: relative;
+    left:50%;
+    top: 5px;
+    transform: translate(-50%,-50%);
+}
+
+.row .card{
+    margin: 10px;
+}
+.row .img{
+    transition: transform 0.3s ease;
+}
+.row .img:hover{
+    transform: translate(5px,5px);
+}
+.card p{
+    color: rgb(251, 193, 3);
+}
+
+
+/* Latest products */
+
+.latest-product h2{
+    text-align: center;
+    margin-top: 40px;
+}
+.latest-product #line2{ 
+    background-color: rgb(155, 57, 0);
+    width: 90px;
+    height: 5px;
+    border-radius: 20px;
+    position: relative;
+    top: 5px;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.row2 .img{
+    transition: transform 0.3s ease;
+}
+.row2 .img:hover{
+    transform: translate(5px,5px);
+}
+
+.row3 .img{
+    transition: transform 0.3s ease;
+}
+.row3 .img:hover{
+    transform: translate(5px,5px);
+}

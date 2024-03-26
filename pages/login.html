@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/login.css">
+</head>
+<body>
+    <header> 
+        <nav>
+         <img class="logo" src="../Asset/Images/logo.png" width="120" height="32">
+         <ul>
+             <li class="content"><a href="../index.html">Home</a></li>
+             <li class="content"><a href="../pages/product.html">Products</a></li>
+             <li class="content"><a href="">About</a></li>
+             <li class="content"><a href="">Contact</a></li>
+             <li class="content"><a href="../pages/login.html">Account</a></li>
+             <li class="content"><a href="../pages/cart.html"><img id="carticon" src="/Asset/Images/cart.png" style="height: 16px;width: 18px;"></a></li>
+             
+         </ul>
+         
+        </nav>
+    
+
+</header>
+<main>
+    <div class="container">
+        <div class="left">
+            <img class="img" src="../Asset/Images/image1.png" width="570" height="470">
+        </div>
+        <div class="right">
+            <div class="button">
+                <div id="btn">
+                <button type="button" class="toggle1" onclick="login()">Log in</button>
+                <button type="button" class="toggle1" onclick="register()">Register</button>
+                </div>
+            </div>
+            
+        
+            <form id="login" class="input">
+                <input type="text" class="input-field" placeholder="user Id" required>
+                <input type="email" class="input-field" placeholder="Email" required><br><br>
+                <!-- <input type="password" class="input-field" placeholder="Password" required><br><br> -->
+                <a href=""><p>Forget password</p></a><br><br>
+                <button type="submit" class="submit-btn">Login</button>
+            </form> 
+
+
+            <form id="register" class="input">
+                <input type="text" class="input-field" placeholder="user Id" required>
+                <input type="email" class="input-field" placeholder="Email Id" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required><br><br>
+                <button type="submit" class="submit-btn">Register</button>
+            </form> 
+        </div>
+    </div>
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+        
+        function login(){
+            x.style.left = "50px";
+            y.style.left = "500px";
+            z.style.left = "0px";
+        }
+        function register(){
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "0px";
+        }
+
+    </script>
+</main>
+<footer>
+    <div class="foot">
+        <div class="left">
+            <h5>Download Our App</h5><br>
+            <p>Download App For android And ios Mobile phone</p><br>
+            <img class="img" src="../Asset/Images/app-store.png" height="40px" width="130px">
+            <img class="img" src="../Asset/Images/play-store.png" height="40px" width="130px">
+        </div>
+        <div class="center1">
+            <img src="../Asset/Images/logo-white.png" height="42px" width="160px"><br><br>
+            <p>Our Purpose is to substainably Make Pleasure and<br>Benifits of sports Accesible to the Many.</p>
+        </div>
+        <div class="links">
+            <h4>Usefull Links</h4><br>
+            <a class="a1" href="">
+                <p class="p1">Coupons</p>
+            </a>
+            <a class="a1" href="">
+                <p class="p1">Blog Post</p>
+            </a>
+            <a class="a1" href="">
+                <p class="p1">Return Policy</p>
+            </a>
+            <a class="a1" href="">
+                <p class="p1">Join Affiliato</p>
+            </a>
+        </div>
+        <div class="follow">
+            <h4>Follow Us</h4><br>
+            <a class="a1" href="">
+                <p class="p1">Facebook</p>
+            </a>
+            <a class="a1" href="">
+                <p class="p1">Twitter</p>
+            </a>
+            <a class="a1" href="">
+                <p class="p1">Instagram</p>
+            </a>
+            <a class="a1" href="">
+                <p class="p1">YouTube</p>
+            </a>
+        </div>
+        <div id="line3"></div>
+        <div class="copyright">
+            <p>Copyright 2020-Easy Tutorials</p>
+        </div>
+
+    </div>
+</footer>
+</body>
+</html>

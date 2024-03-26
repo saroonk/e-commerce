@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+}
+body{
+    cursor: pointer;
+    overflow-x: hidden;
+   
+}
+
+nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+nav .logo{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    margin-left: px;
+}
+ul li {
+    padding: 10px;
+    font-size: small;
+    display: inline;
+    }
+ul li a{
+   text-decoration: none;
+   color: black;
+   
+}
+ul{
+    position: absolute;
+    right: 60px;
+
+}
+
+#logo{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+ul li a:hover {
+    color: rgb(59, 143, 253);
+}
+.cart:hover{
+    color: rgb(252, 0, 0);
+}
+
+
+/* ____________________________________ */
+
+
+.maindiv{
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 50px; */
+    margin-left: 0%;
+    
+}
+
+table{
+    border-spacing: 0cap;
+    
+}
+.first{
+    background-color: rgb(255, 108, 17);
+}
+
+.first .head1{
+    padding-left:50%;
+}
+#head3{
+    padding-left:18%;
+}
+#head1{
+    float: left;
+ 
+}
+.img{
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 6px;
+    width: 600px;
+    padding-bottom: 10px;
+    
+    
+}
+.item img{
+    margin-right: 8px;
+}
+
+#s1{
+   font-size: small;
+}
+.item a{
+    text-decoration: none;
+    color: orangered;
+}
+
+.item{
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+
+
+
+.quantity{
+    
+    padding-left: 3px;
+}
+.inputquantity{
+    width: 25px;
+    height: 20px;
+    
+}
+
+
+.total{
+    /* border: 2px solid blue; */
+    padding-left: 120px;
+}
+.price{
+    float: right;
+    
+}
+
+
+.line{
+    background-color: orangered;
+    height: 4px;
+    width: 330px;
+    margin-top: 5px;
+    float: right;
+    position: absolute;
+    left: 800px;
+    top: 570px;
+}
+
+
+.item{
+    height: 150px;
+    width: 330px;
+    margin-top: 1px;
+    margin-left: 800px;
+    
+    
+    /* line-height: 10px; */
+    
+}
+.item .right{
+    float: right;
+    font-family: serif;
+}
+
+.item .left{
+    font-family: serif;
+
+}
+
+.btn1{
+    border-radius: 35px;
+    border: none;
+    background-color: rgb(211, 61, 6);
+    height: 32px;
+    width: 250px;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+
+}
+#p1{
+    color: white;
+}
+
+
+.item button:hover{
+    background-color: rgb(255, 109, 42);
+}
+
+/* __________________________________ */
+
+
+
+
+footer{
+    /* display: block; */
+    /* border: 2px solid red; */
+    position: relative;
+    top: 130px;
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    margin: 0px;
+    padding-left: 80px;
+}
+.foot .left .img{
+    opacity: 0.3;
+    display:inline;
+    width: 130px;
+}
+.foot{
+   
+    height: 37.5vh;
+}
+.foot .left h5{
+    color: rgb(255, 255, 255);  
+    font-size: medium; 
+    
+}
+.foot .left p{
+    color: rgb(117, 117, 117);  
+     
+    
+}
+.foot .left{
+    width: 28%;
+   
+    
+    top: 0;
+    
+     
+    
+    height: 40px;
+    position: absolute;
+    bottom: 300px;
+    padding-top: 20px;
+    
+    
+}
+.foot .left .img:hover{
+    opacity: 1;
+}
+
+
+
+
+
+.foot .center1{
+    
+    position: absolute;
+    top: 45px;
+    text-align: center;
+    /* align-items: center; */
+    left: 470px;
+    
+    line-height: 1.5;
+    height: 135px;
+    margin-top: 0%;
+   
+    /* justify-content: center; */
+}
+
+.center1 p{
+    color: rgb(117, 117, 117); 
+}
+
+
+
+
+
+.links{
+    
+   /* display: flex; */
+   position: absolute;
+   left: 950px;
+   margin-top: 35px;
+   text-align: center;
+   line-height: 25px;
+    
+}
+.links h4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links a{
+    text-decoration: none;
+    
+}
+.links .p1:hover{
+    color: #e95819;
+}
+.links .p1{
+    color: rgb(117, 117, 117);
+}
+    
+
+.follow{
+    
+   /* display: flex; */
+   position: absolute;
+   left: 1100px;
+   margin-top: 35px;
+   text-align: center;
+   line-height: 25px;
+    
+}
+.follow h4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.follow a{
+    text-decoration: none;
+    
+}
+.follow .p1{
+    color: rgb(117, 117, 117);
+}
+.follow .p1:hover{
+    color: #e95819;
+}
+
+#line3{
+    background-color: rgb(255, 255, 255);
+    width: 1100px;
+    height: 1px;
+    justify-content: space-around;
+    border-radius: 20px;
+    position: absolute;
+    top: 210px;
+    left:46%;
+    transform: translate(-50%,-50%);
+}
+
+.copyright{
+    
+    position: relative;
+    margin-left: 460px;
+    
+   
+    color: rgb(117, 117, 117);
+    top: 220px;
+    
+}
